@@ -2,6 +2,8 @@ module PriceIndex
 
 greet() = print("Hello World!")
 
+using Distributions, Parameters, LinearAlgebra, Plots, Compat
+
 function FixedLaspeyres(p,q)
 N=size(p,1)
 T=size(p,2)
