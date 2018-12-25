@@ -18,4 +18,6 @@ s=zeros(N,T)
 return Pl[N+1,:]
 end
 
+export FixedLaspeyres
+
 end # module
